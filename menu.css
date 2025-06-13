@@ -1,0 +1,203 @@
+body {
+    background-color: red;
+    font-family: Arial;
+}
+
+/* menu */
+* {
+    margin: 0;
+    padding: 0; /* Espacio entre el contenido del elemento y su borde */
+    -webkit-box-sizing: border-box; /* Calcular las medidas de un elemento */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navegacion {
+    width: 1000px;
+    margin: 30px auto;
+    background: #fff;
+}
+
+.navegacion ul {
+    list-style: none; /* Quita las viñetas de lista */
+}
+
+.menu > li {
+    position: relative; /* la etiqueta position especifica cómo un elemento es posicionado en el documento */
+    display: inline-block; /* lista horizontal menú */
+}
+
+.menu > li > a {
+    display: block; /* Establece los tipos de visualización interna y externa de un elemento */
+    padding: 15px 20px; /* Tamaño del menu del menú */
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none; /* No se pinja ningún subrayado ni viñetas */
+}
+
+.menu li:hover > a {
+    color: #C27D35; /* Darle color a las letras del menú */
+    transition: all .3s; /* Darle transición al color de las letras del menú */
+}
+
+/* submenu */
+.submenu {
+    position: absolute; /* la etiqueta position especifica cómo un elemento es posicionado en el documento */
+    background: #333333;
+    width: 120%;
+    visibility: hidden; /* Visualizar el efecto de selección, hidden esconde el elemento pero deja vacío el espacio */
+    opacity: 0; /* transparencia del elemento */
+    transition: opacity 1.5s;
+}
+.submenu li a{
+	display: block; 
+	padding: 15px;
+	color:  #fff;
+	font-family: 'Open sans' ;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+	visibility: visible; 
+	opacity: 1;
+}
+.subm{
+	position: absolute;
+	background: 333333;
+	width: 120%;
+	visibility: hidden; 
+	opacity: 0;
+	transition: opacity 1.5a;
+}
+.subm li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'open sans';
+	text-decoration: none;
+}
+.menu li:hover .subm{
+	visibility:visible;
+	opacity: 1;
+}
+.subm li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'open sans';
+	text-decoration: none;
+}
+.menu li:hover .subm{
+	visibility:visible;
+	opacity: 1;
+background-color:#FFA533;
+font-family:Arial;
+}
+*{/*menu*/
+ margin:0;
+ padding:0;/*espacio entre el contenido del elemnto y su borde */
+ -webkit-box-sizing:border-box;
+ -moz-box-sizing:border-box;
+ box-sizing:border-box;
+}
+ /*tabla*/
+ #tabla {
+	 margin:150px auto;
+	 width:600px;
+	 float:center;
+ }
+ table{
+	 background-color:white;
+	 text-align:left;
+	 border-collapse:collapse;
+	 width:100%;
+ }
+ th,td{
+	 border:solid 1px black;
+	 padding:5px;
+ }
+ thead{ /*bloque de filas*/
+background-color:#246355;
+border-bottom:solid 5px #0F362D;
+color:white;
+ }
+ tr:nth-child(even){
+	background-color:#ddd;
+ }
+ tr:hover td{
+	 background-color:#369681;
+	 color: white;
+ }
+ h1.pa1{
+     color:blue;
+	 text-align: center;
+ }
+p.par1{
+	text-align: center;
+	color: blue;	
+	font-size:38px;
+}
+p.par2{
+	text-align: center;
+	color: white;	
+	font-size:30px;
+}
+p.par3{
+	text-align: center;
+	color: orange;
+	font-size:35px;
+
+}
+p.par4{
+	text-align: center;
+	color: brown;
+    font-size:37px;	
+}
+.img{ /*diseño de la imagen*/
+width:300px;
+height:300px;
+padding:10px;
+margin:10px;
+border:2px solid black;
+display:block;
+margin:0px auto;
+/*float:right;
+float:left;left|right|none*/
+}
+background-color:# #d4efdf ;
+font-family:Arial;
+}
+*{/*menu*/
+ margin:0;
+ padding:0;/*espacio entre el contenido del elemnto y su borde */
+ -webkit-box-sizing:border-box;
+ -moz-box-sizing:border-box;
+ box-sizing:border-box;
+}
+ /*tabla*/
+ #tabla {
+	 margin:150px auto;
+	 width:600px;
+	 float:center;
+ }
+ table{
+	 background-color:white;
+	 text-align:left;
+	 border-collapse:collapse;
+	 width:100%;
+ }
+ th,td{
+	 border:solid 1px black;
+	 padding:5px;
+ }
+ thead{ /*bloque de filas*/
+background-color:#246355;
+border-bottom:solid 5px #0F362D;
+color:white;
+ }
+ tr:nth-child(even){
+	background-color:#ddd;
+ }
+ tr:hover td{
+	 background-color:#369681;
+	 color: white;
+ }
